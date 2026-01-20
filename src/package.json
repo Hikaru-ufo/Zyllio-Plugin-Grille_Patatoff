@@ -1,0 +1,42 @@
+{
+  "name": "zyllio-plugin-tile-grid",
+  "version": "1.0.0",
+  "description": "Plugin Zyllio pour affichage de données en grille de tuiles interactives",
+  "main": "tile-grid-plugin.js",
+  "scripts": {
+    "test": "npx @zyllio/zy-cli . tile-grid-plugin.js tile-grid",
+    "build": "echo 'Le plugin est en JavaScript pur, pas de compilation nécessaire'",
+    "dev": "npx @zyllio/zy-cli . tile-grid-plugin.js tile-grid"
+  },
+  "keywords": [
+    "zyllio",
+    "plugin",
+    "tile",
+    "grid",
+    "component",
+    "no-code",
+    "interactive",
+    "visualization"
+  ],
+  "author": "Claude Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "@zyllio/zy-sdk": "latest",
+    "@zyllio/zy-cli": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zyllio-plugin-tile-grid"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/zyllio-plugin-tile-grid/issues"
+  },
+  "homepage": "https://github.com/your-username/zyllio-plugin-tile-grid#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "tile-grid-plugin.js",
+    "README.md"
+  ]
+}
